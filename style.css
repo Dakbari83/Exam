@@ -1,0 +1,94 @@
+html{height: 100%;
+    background-image: linear-gradient(rgba(170, 157, 255, 1), rgb(90, 74, 163));
+
+}
+.mainbox{height: 350px;
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgba(35, 28, 45, 0.899);
+border-radius: 10%;
+color: rgba(0, 0, 0, 0.279);
+text-align: center;
+font-size: x-large;
+box-shadow: 3px 3px 3px;
+
+}
+   
+.tipc{
+    color: white;
+    text-align: center;
+    font-size: x-large;
+}
+.bill{
+    font-size: large;
+    text-align: left;
+    margin-left: 20px;
+    color: white;
+}
+
+#billbox{
+    background-color: rgba(170, 157, 255, 0.222);
+    width: 250px;
+    height: 20px;
+    border-radius: 30px;
+    transition: 500ms;
+    padding-left: 10px;
+    color: white;
+}
+#billbox:hover{
+    background-color: rgba(170, 157, 255, 0.429);
+}
+.tip{
+    color: white;
+    font-size: large;
+    text-align: left;
+    margin-left: 20px;
+}
+#tipbox{
+    background-color: rgba(170, 157, 255, 0.222);
+    width: 250px;
+    height: 20px;
+    border-radius: 30px;
+    transition: 500ms;
+    padding-left: 10px;
+    color: white;
+}
+#tipbox:hover{
+    background-color: rgba(170, 157, 255, 0.429);
+}
+.people{
+    font-size: large;
+    text-align: left;
+    margin-left: 20px;
+    color: white;
+}
+
+.buttons{
+    text-align: left;
+    margin-left: 20px;
+    color: white;
+    font-size: large;
+}
+.plus{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: rgba(170, 157, 255, 1);
+    transition: 500ms;
+}
+.minus{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: rgba(170, 157, 255, 1);
+    transition: 500ms;
+}
+.plus:hover{
+    background-color: rgb(196, 187, 252);
+    cursor: pointer;
+}
+.minus:hover{
+   background-color:  rgb(196, 187, 252);
+   cursor: pointer;
+}
